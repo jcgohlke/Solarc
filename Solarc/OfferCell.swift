@@ -55,7 +55,6 @@ struct OfferCell: View {
       VStack(alignment: .leading, spacing: 10) {
         Text("Weather Pro")
           .font(.title).bold()
-          .foregroundColor(.primary)
 
         HStack {
           Text(offerDescription)
@@ -77,10 +76,8 @@ struct OfferCell: View {
         .disabled(inProgress || isPurchased)
 
         Text("Then \(price) every \(periodUnit)")
-          .foregroundColor(.primary)
       }
     }
-    .background(Color.white)
     .alert(isPresented: $isShowingError, content: {
       Alert(title: Text(errorTitle), message: nil, dismissButton: .default(Text("OK")))
     })

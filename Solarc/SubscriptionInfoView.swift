@@ -39,7 +39,6 @@ struct SubscriptionInfoView: View {
           Spacer()
           
           Text("\(planName)")
-            .foregroundColor(.primary)
         }
         
         HStack {
@@ -49,12 +48,11 @@ struct SubscriptionInfoView: View {
           Spacer()
           
           Text(renewalExpireDateDescription)
-            .foregroundColor(.primary)
         }
         
         Text(planStatus)
           .padding(5)
-      }.listRowBackground(Color.white)
+      }
       
       Section {
         Button("Manage subscription", action: {
@@ -64,11 +62,8 @@ struct SubscriptionInfoView: View {
           }
         })
       }
-      .listRowBackground(Color.white)
     }
-    .navigationTitle("Trade Like a Pro")
-    .background(Color.white.ignoresSafeArea())
-    .preferredColorScheme(.dark)
+    .navigationTitle("Solarc Pro")
     .onAppear {
       determinePlanState()
     }

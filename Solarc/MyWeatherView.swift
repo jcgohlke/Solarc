@@ -70,6 +70,7 @@ struct MyWeatherView: View {
           Label("Settings", systemImage: "gear")
         }
         .buttonStyle(.borderedProminent)
+        .tint(.purple)
         
         // TODO: Insert logo (https://weather-data.apple.com/assets/branding/combined-mark-light.png currently 404's)
         
