@@ -51,6 +51,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		921DA1FB2865110300EEFEF5 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				92E6978F285FC64D00C34E8C /* MyWeatherView.swift */,
+				92FF9DD4286359A20005A032 /* CurrentConditionsCard.swift */,
+				92FBD5CB2863DCD500086087 /* CoordinatesCard.swift */,
+				92FBD5CD2863E1C500086087 /* AnnotatedItem.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		921DA1FC2865111900EEFEF5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				921DA1EB2865020C00EEFEF5 /* SettingsView.swift */,
+				921DA1F32865073900EEFEF5 /* SubscriptionInfoView.swift */,
+				921DA1EF286505BA00EEFEF5 /* OfferCell.swift */,
+				921DA1F1286505EB00EEFEF5 /* SubscriptionStatusCell.swift */,
+				921DA1ED2865031900EEFEF5 /* IAPSubscriptionManager.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		92E69771285FBFC700C34E8C = {
 			isa = PBXGroup;
 			children = (
@@ -72,15 +95,8 @@
 			children = (
 				92E6978E285FC1DE00C34E8C /* Solarc.entitlements */,
 				92E6977D285FBFC700C34E8C /* SolarcApp.swift */,
-				92FBD5CD2863E1C500086087 /* AnnotatedItem.swift */,
-				92E6978F285FC64D00C34E8C /* MyWeatherView.swift */,
-				92FF9DD4286359A20005A032 /* CurrentConditionsCard.swift */,
-				921DA1EB2865020C00EEFEF5 /* SettingsView.swift */,
-				921DA1F32865073900EEFEF5 /* SubscriptionInfoView.swift */,
-				921DA1EF286505BA00EEFEF5 /* OfferCell.swift */,
-				921DA1F1286505EB00EEFEF5 /* SubscriptionStatusCell.swift */,
-				921DA1ED2865031900EEFEF5 /* IAPSubscriptionManager.swift */,
-				92FBD5CB2863DCD500086087 /* CoordinatesCard.swift */,
+				921DA1FB2865110300EEFEF5 /* Weather */,
+				921DA1FC2865111900EEFEF5 /* Settings */,
 				92E6978B285FC05600C34E8C /* Models */,
 				92E69781285FBFC700C34E8C /* Assets.xcassets */,
 				92E69783285FBFC700C34E8C /* Preview Content */,
