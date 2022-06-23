@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		921DA1EC2865020C00EEFEF5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921DA1EB2865020C00EEFEF5 /* SettingsView.swift */; };
+		921DA1EE2865031900EEFEF5 /* IAPSubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921DA1ED2865031900EEFEF5 /* IAPSubscriptionManager.swift */; };
+		921DA1F0286505BA00EEFEF5 /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921DA1EF286505BA00EEFEF5 /* OfferCell.swift */; };
+		921DA1F2286505EB00EEFEF5 /* SubscriptionStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921DA1F1286505EB00EEFEF5 /* SubscriptionStatusCell.swift */; };
+		921DA1F42865073900EEFEF5 /* SubscriptionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921DA1F32865073900EEFEF5 /* SubscriptionInfoView.swift */; };
 		92E6977E285FBFC700C34E8C /* SolarcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6977D285FBFC700C34E8C /* SolarcApp.swift */; };
-		92E69780285FBFC700C34E8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6977F285FBFC700C34E8C /* ContentView.swift */; };
 		92E69782285FBFC700C34E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E69781285FBFC700C34E8C /* Assets.xcassets */; };
 		92E69785285FBFC700C34E8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E69784285FBFC700C34E8C /* Preview Assets.xcassets */; };
+		92E6978D285FC06200C34E8C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6978C285FC06200C34E8C /* Location.swift */; };
+		92E69790285FC64D00C34E8C /* MyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6978F285FC64D00C34E8C /* MyWeatherView.swift */; };
+		92FBD5CC2863DCD500086087 /* CoordinatesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBD5CB2863DCD500086087 /* CoordinatesCard.swift */; };
+		92FBD5CE2863E1C500086087 /* AnnotatedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBD5CD2863E1C500086087 /* AnnotatedItem.swift */; };
+		92FF9DD5286359A20005A032 /* CurrentConditionsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FF9DD4286359A20005A032 /* CurrentConditionsCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		921DA1EB2865020C00EEFEF5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		921DA1ED2865031900EEFEF5 /* IAPSubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPSubscriptionManager.swift; sourceTree = "<group>"; };
+		921DA1EF286505BA00EEFEF5 /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		921DA1F1286505EB00EEFEF5 /* SubscriptionStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionStatusCell.swift; sourceTree = "<group>"; };
+		921DA1F32865073900EEFEF5 /* SubscriptionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionInfoView.swift; sourceTree = "<group>"; };
 		92E6977A285FBFC700C34E8C /* Solarc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solarc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E6977D285FBFC700C34E8C /* SolarcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarcApp.swift; sourceTree = "<group>"; };
-		92E6977F285FBFC700C34E8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92E69781285FBFC700C34E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92E69784285FBFC700C34E8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92E6978C285FC06200C34E8C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Location.swift; path = ../../../../../Location.swift; sourceTree = "<group>"; };
+		92E6978E285FC1DE00C34E8C /* Solarc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Solarc.entitlements; sourceTree = "<group>"; };
+		92E6978F285FC64D00C34E8C /* MyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWeatherView.swift; sourceTree = "<group>"; };
+		92FBD5CB2863DCD500086087 /* CoordinatesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesCard.swift; sourceTree = "<group>"; };
+		92FBD5CD2863E1C500086087 /* AnnotatedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotatedItem.swift; sourceTree = "<group>"; };
+		92FF9DD4286359A20005A032 /* CurrentConditionsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditionsCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +70,18 @@
 		92E6977C285FBFC700C34E8C /* Solarc */ = {
 			isa = PBXGroup;
 			children = (
+				92E6978E285FC1DE00C34E8C /* Solarc.entitlements */,
 				92E6977D285FBFC700C34E8C /* SolarcApp.swift */,
-				92E6977F285FBFC700C34E8C /* ContentView.swift */,
+				92FBD5CD2863E1C500086087 /* AnnotatedItem.swift */,
+				92E6978F285FC64D00C34E8C /* MyWeatherView.swift */,
+				92FF9DD4286359A20005A032 /* CurrentConditionsCard.swift */,
+				921DA1EB2865020C00EEFEF5 /* SettingsView.swift */,
+				921DA1F32865073900EEFEF5 /* SubscriptionInfoView.swift */,
+				921DA1EF286505BA00EEFEF5 /* OfferCell.swift */,
+				921DA1F1286505EB00EEFEF5 /* SubscriptionStatusCell.swift */,
+				921DA1ED2865031900EEFEF5 /* IAPSubscriptionManager.swift */,
+				92FBD5CB2863DCD500086087 /* CoordinatesCard.swift */,
+				92E6978B285FC05600C34E8C /* Models */,
 				92E69781285FBFC700C34E8C /* Assets.xcassets */,
 				92E69783285FBFC700C34E8C /* Preview Content */,
 			);
@@ -65,6 +94,14 @@
 				92E69784285FBFC700C34E8C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92E6978B285FC05600C34E8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92E6978C285FC06200C34E8C /* Location.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92E69780285FBFC700C34E8C /* ContentView.swift in Sources */,
+				921DA1EC2865020C00EEFEF5 /* SettingsView.swift in Sources */,
+				921DA1EE2865031900EEFEF5 /* IAPSubscriptionManager.swift in Sources */,
+				92E6978D285FC06200C34E8C /* Location.swift in Sources */,
+				92FBD5CE2863E1C500086087 /* AnnotatedItem.swift in Sources */,
+				92FBD5CC2863DCD500086087 /* CoordinatesCard.swift in Sources */,
+				92FF9DD5286359A20005A032 /* CurrentConditionsCard.swift in Sources */,
+				92E69790285FC64D00C34E8C /* MyWeatherView.swift in Sources */,
+				921DA1F42865073900EEFEF5 /* SubscriptionInfoView.swift in Sources */,
 				92E6977E285FBFC700C34E8C /* SolarcApp.swift in Sources */,
+				921DA1F2286505EB00EEFEF5 /* SubscriptionStatusCell.swift in Sources */,
+				921DA1F0286505BA00EEFEF5 /* OfferCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Solarc/Solarc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Solarc/Preview Content\"";
@@ -280,7 +327,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ventures.launchcontrol.Solarc;
+				PRODUCT_BUNDLE_IDENTIFIER = ventures.launchcontrol.solarc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,6 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Solarc/Solarc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Solarc/Preview Content\"";
@@ -309,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ventures.launchcontrol.Solarc;
+				PRODUCT_BUNDLE_IDENTIFIER = ventures.launchcontrol.solarc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
