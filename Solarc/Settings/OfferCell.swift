@@ -53,7 +53,7 @@ struct OfferCell: View {
   var body: some View {
     VStack(spacing: 20) {
       VStack(alignment: .leading, spacing: 10) {
-        Text("Weather Pro")
+        Text("Solarc Pro")
           .font(.title).bold()
 
         HStack {
