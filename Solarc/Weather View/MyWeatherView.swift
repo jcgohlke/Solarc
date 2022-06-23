@@ -12,8 +12,8 @@ import WeatherKit
 
 struct MyWeatherView: View {
   let annotations: [AnnotatedItem] = [
-      AnnotatedItem(name: "Orlando, FL", coordinate: CLLocationCoordinate2D(latitude: 28.538336, longitude: -81.379234))
-    ]
+    AnnotatedItem(name: "Orlando, FL", coordinate: CLLocationCoordinate2D(latitude: 28.538336, longitude: -81.379234))
+  ]
   
   @StateObject var subscriptionMgr: IAPSubscriptionManager = IAPSubscriptionManager()
   
@@ -47,13 +47,14 @@ struct MyWeatherView: View {
         coordinateRegion: $region,
         annotationItems: annotations,
         annotationContent: { item in
-          MapMarker(coordinate: item.coordinate, tint: .purple)
+          MapMarker(coordinate: item.coordinate, tint: .blue)
         }
       )
       .ignoresSafeArea()
       
       VStack {
         CoordinatesCard(location: annotations[0])
+        
         Spacer()
         
         CurrentConditionsCard(
@@ -70,12 +71,11 @@ struct MyWeatherView: View {
           Label("Settings", systemImage: "gear")
         }
         .buttonStyle(.borderedProminent)
-        .tint(.purple)
         
         // TODO: Insert logo (https://weather-data.apple.com/assets/branding/combined-mark-light.png currently 404's)
         
-//        Link("Other data sources", destination: attributionLink ?? URL(string: "https://weather-data.apple.com/legal-attribution.html")!)
-//          .font(.footnote)
+        Link("Other data sources", destination: attributionLink ?? URL(string: "https://weather-data.apple.com/legal-attribution.html")!)
+          .font(.footnote)
       }
       .padding()
       .task {
@@ -87,7 +87,7 @@ struct MyWeatherView: View {
           temperature = weather.currentWeather.temperature
           apparentTemperature = weather.currentWeather.apparentTemperature
           symbolName = weather.currentWeather.symbolName
-            
+
           let attribution = try await WeatherService.shared.attribution
           attributionLink = attribution.legalPageURL
           attributionLogo = colorScheme == .light ? attribution.combinedMarkLightURL : attribution.combinedMarkDarkURL

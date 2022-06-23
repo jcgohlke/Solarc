@@ -142,7 +142,7 @@ class IAPSubscriptionManager: ObservableObject {
   }
   
   func offerDescription(for product: Product) -> String {
-    return "Trade Like includes \(offerPeriod(for: product)) of Trade Like a Pro to try for free."
+    return "Solarc includes \(offerPeriod(for: product)) of Solarc Pro to try for free."
   }
   
   func offerPeriod(for product: Product) -> String {

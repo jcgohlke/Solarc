@@ -22,7 +22,7 @@ struct SubscriptionInfoView: View {
   var body: some View {
     List {
       VStack(alignment: .leading, spacing: 20) {
-        Text("Trade Like is the best place to get the jump on how insiders are trading their company's stocks.")
+        Text("Solarc is the best weather app available on the App Store.")
         
         Text("We make it easy to cancel anytime, right here without talking to anyone.")
       }
